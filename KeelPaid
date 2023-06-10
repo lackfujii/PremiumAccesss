@@ -21,36 +21,36 @@ local Window = Rayfield:CreateWindow({
 		FileName = "Keel.lua Key",
 		SaveKey = false,
 		GrabKeyFromSite = false, -- 
-		Key = "SDJUIO342SdnAjnwEAISJDNA@nasdjn342@3nadm23"
+		Key = "KswqzkwSk21kSmakwekazWMSAk23sS"
 	}
 	})
 	
 	
 	----------------------------------------------------------------------------------------------------------------------------------
 	
-	local Tab = Window:CreateTab("Premium", 3) 
+	local Tab = Window:CreateTab("Legit", 3) 
 	
 	local Button = Tab:CreateButton({
-	Name = "Lock Premium ",
+	Name = "Streamable With Built in camlock ",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/lackfujii/premiunkicj/main/Lock"))()
 	end,
 })
 local Button = Tab:CreateButton({
-	Name = "Premium Aimview",
+	Name = "Aimview",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/lackfujii/Aimview/main/Keel.luaW"))()
 	end,
 })	
 local Button = Tab:CreateButton({
-	Name = "Premium Anti lock",
+	Name = "Anti lock",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/lackfujii/antilock/main/Keel.lua"))()
 	end,
 })	
 
 local Button = Tab:CreateButton({
-	Name = "Paid Streamable Silent",
+	Name = "Streamable Silent",
 	Callback = function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/SbtCNZg7"))()
 DaHoodSettings.Prediction = 0.131
@@ -419,19 +419,11 @@ local Button = Tab:CreateButton({
 		loadstring(game:HttpGet("https://pastebin.com/raw/A40ja3Yz"))()
 	end,
 })
-      local Tab = Window:CreateTab("Spoofers", 3)
-
-      local Button = Tab:CreateButton({
-        Name = "Ping Spoofer",
-        Callback = function()
-            loadstring(game:HttpGet("https://pastebin.com/raw/4BN90C6a"))()
-        end,
-    })
-    
+ 
     local Tab = Window:CreateTab("Blatant", 3) 
 
     local Button = Tab:CreateButton({
-        Name = "Premium Tracer (E) ",
+        Name = "Premium Tracer (RMB) ",
         Callback = function()
             _G.TargetAim = {
         ["Key"] = "e",
