@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/lackfujii/RayField/main/Thingy'))()
 local Window = Rayfield:CreateWindow({
-	Name = "Keel Premium",
+	Name = "👁‍🗨 Keel.LUA  Premium",
 	LoadingTitle = "Keel Premium is loading",
 	LoadingSubtitle = "Best Lua Script",
 	ConfigurationSaving = {
@@ -13,22 +13,21 @@ local Window = Rayfield:CreateWindow({
         	Invite = "fCsXCUA96K", -- 
         	RememberJoins = true -- 
         },
-	KeySystem = true, -- 
-	KeySettings = {
-		Title = "Premium Hub",
-		Subtitle = "Premium Key System",
-		Note = "Join the discord (https://discord.gg/fCsXCUA96K)",
-		FileName = "Keel.lua Key",
-		SaveKey = false,
-		GrabKeyFromSite = false, -- 
-		Key = "KswqzkwSk21kSmakwekazWMSAk23sS"
-	}
-	})
-	
+        KeySystem = true, -- 
+        KeySettings = {
+            Title = " 👁‍🗨 Access Hub",
+            Subtitle = "Keel Access System",
+            Note = "Join the discord (https://discord.gg/fCsXCUA96K)",
+            FileName = "Keel.lua Key",
+            SaveKey = false,
+            GrabKeyFromSite = false, -- 
+            Key = "KswqzkwSk21kSmakwekazWMSAk23sS"
+        }
+        })
 	
 	----------------------------------------------------------------------------------------------------------------------------------
 	
-	local Tab = Window:CreateTab("💠 Da Hood", 3) 
+	local Tab = Window:CreateTab(" 👁‍🗨 Da Hood", 3) 
 	
 	local Button = Tab:CreateButton({
 	Name = "Streamable/camlock ",
@@ -76,7 +75,7 @@ Aiming.HitChance = 100
 	},
 })
 
-   local Tab = Window:CreateTab("💠 Hood Customs", 3)
+   local Tab = Window:CreateTab("💥 Hood Customs", 3)
 
     local Button = Tab:CreateButton({
     Name = "Camlock (P)",
@@ -85,7 +84,7 @@ Aiming.HitChance = 100
 	end,
 })	
  
-    local Tab = Window:CreateTab("💠 Misc", 3)
+    local Tab = Window:CreateTab(" 👁  Misc", 3)
 
     local Button = Tab:CreateButton({
         Name = "Headless & Korblox",
