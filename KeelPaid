@@ -8,7 +8,7 @@ local Window = Rayfield:CreateWindow({
 		FolderName = nil, -- 
 		FileName = "Big Hub"
 	},
-        Discord = { -- Easy
+        Discord = {
         	Enabled = true,
         	Invite = "fCsXCUA96K", -- 
         	RememberJoins = true -- 
@@ -28,7 +28,7 @@ local Window = Rayfield:CreateWindow({
 	
 	----------------------------------------------------------------------------------------------------------------------------------
 	
-	local Tab = Window:CreateTab("Da Hood", 3) 
+	local Tab = Window:CreateTab("✷ Da Hood", 3) 
 	
 	local Button = Tab:CreateButton({
 	Name = "Streamable/camlock ",
@@ -76,7 +76,7 @@ Aiming.HitChance = 100
 	},
 })
 
-   local Tab = Window:CreateTab("Hood Customs", 3)
+   local Tab = Window:CreateTab("❂ Hood Customs", 3)
 
     local Button = Tab:CreateButton({
     Name = "Camlock (P)",
@@ -85,7 +85,7 @@ Aiming.HitChance = 100
 	end,
 })	
  
-    local Tab = Window:CreateTab("Misc", 3)
+    local Tab = Window:CreateTab("★ Misc", 3)
 
     local Button = Tab:CreateButton({
         Name = "Headless & Korblox",
