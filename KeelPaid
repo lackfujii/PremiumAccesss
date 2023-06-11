@@ -8,7 +8,7 @@ local Window = Rayfield:CreateWindow({
 		FolderName = nil, -- 
 		FileName = "Big Hub"
 	},
-        Discord = {
+        Discord = { -- Easy
         	Enabled = true,
         	Invite = "fCsXCUA96K", -- 
         	RememberJoins = true -- 
