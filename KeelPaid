@@ -475,3 +475,24 @@ coroutine.resume(coroutine.create(function()
     end
 end))
 
+--[[
+    HC Silent Aim Fix Thanks Kast
+]]--
+local isKnocked = function(plr)
+    if not isAlive(plr) then return end
+    if game.PlaceId == 9825515356 then
+        if plr.Character:FindFirstChild("BodyEffects") ~= nil then
+            return plr.Character:FindFirstChild("BodyEffects"):FindFirstChild("K.O").Value
+        end
+    end
+    return false
+end
+-- HC Fix Thanks Kast
+if game.PlaceId == 9825515356 then -- afk bypass in customs
+    if args[1] == "RequestAFKDisplay" then
+        args[2] = false
+        return backupnamecall(self, unpack(args))
+    end
+end
+
+return backupnamecall(self, ...)
